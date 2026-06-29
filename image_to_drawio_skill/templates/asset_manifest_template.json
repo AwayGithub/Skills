@@ -1,0 +1,70 @@
+{
+  "canvas": {
+    "width": 1600,
+    "height": 900
+  },
+  "assets_dir": "assets",
+  "output": "output.drawio",
+  "layers": [
+    "00_background",
+    "10_containers",
+    "20_objects",
+    "30_connectors",
+    "40_data",
+    "50_labels",
+    "60_effects",
+    "70_notes"
+  ],
+  "elements": [
+    {
+      "id": "background",
+      "type": "image",
+      "layer": "00_background",
+      "file": "background.png",
+      "x": 0,
+      "y": 0,
+      "w": 1600,
+      "h": 900,
+      "locked": true
+    },
+    {
+      "id": "card_01",
+      "type": "rect",
+      "layer": "10_containers",
+      "text": "",
+      "x": 120,
+      "y": 160,
+      "w": 360,
+      "h": 220,
+      "style": "rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;arcSize=12;shadow=0;"
+    },
+    {
+      "id": "main_object_01",
+      "type": "image",
+      "layer": "20_objects",
+      "file": "object_example.svg",
+      "x": 240,
+      "y": 220,
+      "w": 120,
+      "h": 120
+    },
+    {
+      "id": "arrow_01",
+      "type": "connector",
+      "layer": "30_connectors",
+      "points": [[480, 270], [620, 270], [760, 270]],
+      "style": "endArrow=classic;html=1;rounded=1;strokeColor=#333333;strokeWidth=3;"
+    },
+    {
+      "id": "label_01",
+      "type": "text",
+      "layer": "50_labels",
+      "text": "示例文本",
+      "x": 150,
+      "y": 190,
+      "w": 180,
+      "h": 40,
+      "style": "rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#222222;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;"
+    }
+  ]
+}

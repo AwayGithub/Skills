@@ -1,0 +1,107 @@
+{
+  "canvas": {"width": 1600, "height": 900},
+  "assets_dir": "assets",
+  "output": "demo.drawio",
+  "layers": [
+    "00_background",
+    "10_containers",
+    "20_objects",
+    "30_connectors",
+    "50_labels"
+  ],
+  "elements": [
+    {
+      "id": "background",
+      "type": "image",
+      "layer": "00_background",
+      "file": "background.png",
+      "x": 0,
+      "y": 0,
+      "w": 1600,
+      "h": 900,
+      "locked": true
+    },
+    {
+      "id": "left_card",
+      "type": "rect",
+      "layer": "10_containers",
+      "text": "",
+      "x": 260,
+      "y": 260,
+      "w": 300,
+      "h": 220,
+      "style": "rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;arcSize=12;shadow=0;"
+    },
+    {
+      "id": "right_card",
+      "type": "rect",
+      "layer": "10_containers",
+      "text": "",
+      "x": 1040,
+      "y": 260,
+      "w": 300,
+      "h": 220,
+      "style": "rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;fillColor=#FFFFFF;arcSize=12;shadow=0;"
+    },
+    {
+      "id": "main_object_01",
+      "type": "image",
+      "layer": "20_objects",
+      "file": "object_example.svg",
+      "x": 350,
+      "y": 295,
+      "w": 120,
+      "h": 120
+    },
+    {
+      "id": "main_object_02",
+      "type": "image",
+      "layer": "20_objects",
+      "file": "object_example.svg",
+      "x": 1130,
+      "y": 295,
+      "w": 120,
+      "h": 120
+    },
+    {
+      "id": "flow_arrow_01",
+      "type": "connector",
+      "layer": "30_connectors",
+      "points": [[560, 370], [800, 370], [1040, 370]],
+      "style": "endArrow=classic;html=1;rounded=1;strokeColor=#333333;strokeWidth=4;"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "layer": "50_labels",
+      "text": "通用图片重建示例",
+      "x": 520,
+      "y": 120,
+      "w": 560,
+      "h": 60,
+      "style": "rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#222222;fontSize=34;fontStyle=1;align=center;verticalAlign=middle;"
+    },
+    {
+      "id": "left_label",
+      "type": "text",
+      "layer": "50_labels",
+      "text": "输入图片",
+      "x": 320,
+      "y": 425,
+      "w": 180,
+      "h": 40,
+      "style": "rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#222222;fontSize=22;align=center;verticalAlign=middle;"
+    },
+    {
+      "id": "right_label",
+      "type": "text",
+      "layer": "50_labels",
+      "text": "可编辑元素",
+      "x": 1090,
+      "y": 425,
+      "w": 200,
+      "h": 40,
+      "style": "rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#222222;fontSize=22;align=center;verticalAlign=middle;"
+    }
+  ]
+}
